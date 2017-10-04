@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="{{ site.baseurl }}/">
+        <h2 class="nav-title">{{ site.title }}</h2>
+      </a>
+      <ul>
+        <li><a href="{{ '/summary' | prepend: site.url }}">Summary</a></li>
+        <li><a href="{{ '/characters' | prepend: site.url }}">Characters</a></li>
+        <li><a href="{{ '/leitmotifs' | prepend: site.url }}">Leitmotifs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+  </footer>
+</body>
+</html>

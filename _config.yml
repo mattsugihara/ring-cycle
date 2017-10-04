@@ -1,0 +1,39 @@
+# Permalinks
+permalink:      :title
+
+# Setup
+title:          The Ring Cycle
+paginate:       5
+baseurl:        ""
+url:            "mattsugihara.github.io/ring-cycle"
+
+# Assets
+sass:
+  sass_dir:     style
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+# author:
+#   name:         Chester How
+#   url:          http://chester.how
+#   email:        chesterhow@gmail.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/chesterhow/tale
+
+
+# # Make categories work
+# collections:
+#   category:
+#     output: true
+
+future: true
+
+# Gems
+plugins:
+  - jekyll-paginate
