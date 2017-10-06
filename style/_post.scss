@@ -16,7 +16,7 @@
     color: $default-shade;
     font-family: $sans-font;
     font-size: 4rem;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
     text-align: center;
   }
 
@@ -35,4 +35,11 @@
   a:hover {
     text-decoration: underline;
   }
+
+  .by-line{
+  text-align: center;
+  font-style: italic;
+  color: $grey-1;
+  margin: 0 0 1rem 0;
+}
 }

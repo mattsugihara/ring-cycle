@@ -2,6 +2,7 @@
 layout: post
 part: three
 title: "Siegfried"
+source: https://en.wikipedia.org/wiki/Siegfried_(opera)
 ---
 
 ## Act 1
@@ -45,5 +46,3 @@ Siegfried arrives, and the Wanderer questions the youth. Siegfried, who does not
 ### Scene 3
 
 Siegfried passes through the ring of fire, emerging on Brünnhilde's rock. At first, he thinks the sleeping armored figure is a man. However, when he removes the armor, he finds a woman beneath. At the sight of the first woman he has ever seen, Siegfried at last experiences fear. In desperation, he kisses Brünnhilde, waking her from her magic sleep. Hesitant at first, Brünnhilde is won over by Siegfried's love, and renounces the world of the gods. Together, they hail "light-bringing love, and laughing death."
-
-Copied shamelessly from [wikipedia](https://en.wikipedia.org/wiki/Siegfried_(opera))
