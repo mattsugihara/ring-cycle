@@ -31,9 +31,3 @@ github:
 # collections:
 #   category:
 #     output: true
-
-future: true
-
-# Gems
-plugins:
-  - jekyll-paginate

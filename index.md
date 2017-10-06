@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+---
+---
 <html lang="en">
 
 <head>
@@ -7,23 +8,19 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}
+    {{ site.title }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+    {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  
+
   <link rel="stylesheet" href="{{ site.baseurl }}/style/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 </head>
 
 <body>
-{% include nav.html %}
-
-  <main>
-    {{ content }}
-  </main>
-
+  {% include nav.html %}
+  <div class="cover"></div>
   <footer>
   </footer>
 </body>
