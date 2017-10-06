@@ -5,8 +5,8 @@
     display: block;
     padding: 2rem 0;
 
-    &:hover .catalogue-line,
-    &:focus .catalogue-line {
+    &:hover .catalogue-title::after,
+    &:focus .catalogue-title::after {
       width: 5rem;
     }
 
@@ -28,12 +28,14 @@
     font-size: 2rem;
     font-weight: 700;
     margin: .5rem 0;
-  }
 
-  &-line {
-    @include transition(all .3s ease-out);
-    border-top: .2rem solid $default-shade;
-    display: block;
-    width: 2rem;
+    &::after{
+      content: "";
+      @include transition(all .3s ease-out);
+      border-top: .2rem solid $default-shade;
+      display: block;
+      margin-top: .5rem;
+      width: 2rem;
+    }
   }
 }

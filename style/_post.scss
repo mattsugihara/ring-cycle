@@ -12,19 +12,24 @@
     }
   }
 
+  &-header {
+    margin: 1rem 0;
+
+    &::after{
+      content: " ";
+      border-top: .4rem solid $default-shade;
+      display: block;
+      margin: 1rem auto 3rem;
+      width: 4rem;
+    }
+  }
+
   &-title {
     color: $default-shade;
     font-family: $sans-font;
     font-size: 4rem;
-    margin: 1rem 0 0 0;
+    margin: 0;
     text-align: center;
-  }
-
-  &-line {
-    border-top: .4rem solid $default-shade;
-    display: block;
-    margin: 0 auto 3rem;
-    width: 4rem;
   }
 
   p {
@@ -37,9 +42,8 @@
   }
 
   .by-line{
-  text-align: center;
-  font-style: italic;
-  color: $grey-1;
-  margin: 0 0 1rem 0;
-}
+    text-align: center;
+    font-style: italic;
+    color: $grey-1;
+  }
 }
