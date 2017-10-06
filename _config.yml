@@ -4,7 +4,7 @@ permalink:      :title
 # Setup
 title:          The Ring Cycle
 paginate:       5
-baseurl:        ""
+baseurl:        "/ring-cycle"
 url:            "mattsugihara.github.io/ring-cycle"
 
 # Assets

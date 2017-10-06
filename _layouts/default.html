@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+  
+  <link rel="stylesheet" href="{{ site.baseurl }}/style/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+</head>
 
 <body>
   <nav class="nav">
@@ -10,9 +24,9 @@
         <h2 class="nav-title">{{ site.title }}</h2>
       </a>
       <ul>
-        <li><a href="{{ '/summary' | prepend: site.url }}">Summary</a></li>
-        <li><a href="{{ '/characters' | prepend: site.url }}">Characters</a></li>
-        <li><a href="{{ '/leitmotifs' | prepend: site.url }}">Leitmotifs</a></li>
+        <li><a href="{{ site.baseurl }}/summary">Summary</a></li>
+        <li><a href="{{ site.baseurl }}/characters">Characters</a></li>
+        <li><a href="{{ site.baseurl }}/leitmotifs">Leitmotifs</a></li>
       </ul>
     </div>
   </nav>

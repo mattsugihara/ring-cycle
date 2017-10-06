@@ -15,7 +15,7 @@ title: Characters
  - Loge, demigod of fire (tenor)
  - The Norns, the weavers of fate, daughters of Erda (contralto, mezzo-soprano, soprano)
 
-# Morals
+# Mortals
 
 ## Wälsungs
 
