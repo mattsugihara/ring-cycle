@@ -1,0 +1,42 @@
+---
+layout: post
+part: one
+title: "Das Rheingold"
+---
+
+## Scene 1
+The scale of the whole work is established in the prelude, over 136 bars, beginning with a low E flat, and building in more and more elaborate figurations of the chord of E-flat major, to portray the motion of the river Rhine. It has been noted as one of the best-known drone examples in the concert repertory, lasting approximately four minutes.
+
+The curtain rises to show, at the bottom of the Rhine, the three Rhine maidens, Woglinde, Wellgunde, and Flosshilde, playing together. The key shifts to A flat as Woglinde begins an innocent song whose melody is frequently used to characterise the Rhine maidens later in the cycle. Alberich, a Nibelung dwarf, appears from a deep chasm and tries to woo them. Struck by Alberich's ugliness, the Rhine maidens mock his advances and he grows angry. He chases them and tries to catch them in his arms, but they elude, tease and humiliate him. As the sun begins to rise, the maidens praise the golden glow atop a nearby rock; Alberich asks what it is. The Rhine maidens tell him about the Rhine gold, which their father has ordered them to guard: it can be made into a magic ring which will enable its bearer to rule the world, but only by someone who first renounces love. They think they have nothing to fear from the lustful dwarf, but Alberich, embittered by their mockery, curses love, seizes the gold and returns to his chasm, leaving them screaming in dismay.
+
+## Scene 2
+
+Wotan, ruler of the gods, is asleep on a mountaintop with Fricka, his wife. Fricka awakes and sees a magnificent castle behind them. She wakes Wotan and points out that their new home has been completed. The giants Fasolt and Fafner built the castle; in exchange Wotan has promised to give them Fricka's sister Freia, the goddess of youth and beauty and feminine love. Fricka is worried for her sister, but Wotan is confident that they will not have to give Freia away, because he has dispatched his clever servant Loge, the demigod of fire, to search the world for something else to give the giants instead.
+
+Freia rushes onstage in a panic, followed by Fasolt and Fafner. Fasolt demands payment for their finished work. He points out that Wotan's authority is sustained by the treaties carved into his spear, including his contract with the giants, which Wotan therefore cannot violate. Donner (god of thunder) and Froh (god of spring) arrive to defend their sister Freia, but Wotan stops them; as ruler of the gods, he cannot permit the use of force to break the agreement. Hoping Loge will arrive with the alternative payment he promised, Wotan tries to stall.
+
+Loge finally returns with a discouraging report: there is nothing that men will accept in exchange for feminine love, and, by extension, nothing the giants would accept in exchange for Freia. Loge tells them that he was able to find only one instance where someone willingly gave up love for something else: Alberich the Nibelung has renounced love, stolen the Rheingold and made a powerful magic ring out of it. A general discussion of the ring ensues and everyone finds good reasons for wanting it. Fafner makes a counteroffer: the giants will accept the Nibelung's treasure in payment, instead of Freia. When Wotan tries to haggle, the giants depart, taking Freia with them as hostage and vowing to keep her prisoner forever if the gods do not obtain, and give them, the Nibelung's treasure, by evening.
+
+Freia's golden apples had kept the Gods eternally young; in her absence, they begin to age and weaken. In order to win Freia back, Wotan resolves to travel to Alberich's kingdom under the earth, in pursuit of the gold. Loge, who knows the underground kingdom, will act as Wotan's guide.
+
+An orchestral interlude follows: it "paints" the descent of Loge and Wotan into Nibelheim. As the orchestra fades, it gives way to a choir of 18 tuned anvils (indicated in the score with specific size, quantity and pitch) beating out the dotted rhythm of the Nibelung theme to give a stark depiction of the toiling of the enslaved dwarves.
+
+# Scene 3
+
+In Nibelheim, Alberich has enslaved the rest of the Nibelung dwarves with the power of the ring. He has forced his brother Mime, the most skillful smith, to create a magic helmet, the Tarnhelm. Alberich demonstrates the Tarnhelm's power by making himself invisible, the better to torment his subjects. (The Tarnhelm can also change the wearer's shape, and teleport him long distances.)
+
+Wotan and Loge arrive and happen upon Mime, who tells them about Alberich's forging of the ring and the misery of the Nibelungs under his rule. Alberich returns, driving his slaves to pile up a huge mound of gold. When they have finished, he dismisses them and turns his attention to the two visitors. He boasts to them about his plans to use his gold to conquer the world. Loge asks how he can protect himself against a thief while he sleeps. Alberich says the Tarnhelm would hide him, by allowing him to turn invisible or change his form. Loge says he doesn't believe it and requests a demonstration. Alberich complies, turning into a giant snake (or dragon, depending on the translation). Loge acts suitably impressed and then he asks if he can also reduce his size, which would be very useful for hiding. Alberich transforms himself into a toad. The two gods quickly seize him, tie him up, and drag him up to the mountain top.
+
+# Scene 4
+
+On the mountaintop, Wotan and Loge force Alberich to exchange his wealth for his freedom. They untie his right hand, and he uses the ring to summon his Nibelung slaves, who bring the hoard of gold. After the gold has been delivered, he asks for the return of the Tarnhelm, but Loge says that it is part of his ransom. Finally, Wotan demands the ring. Alberich refuses, but Wotan seizes it from his finger and puts it on his own. Alberich is crushed by his loss, and before he leaves he lays a curse on the ring: until it should return to him, whoever does not possess it will desire it, and whoever possesses it will live in anxiety and will eventually be killed and robbed of it by its next owner. Alberich's discordant "Death-Curse" leitmotif is one of the few leitmotifs which occur regularly and unchanged in all four parts of the Ring Cycle.
+
+The gods reconvene. Fasolt and Fafner return, carrying Freia. Reluctant to release Freia, Fasolt insists that the gold be heaped high enough to hide her from view. They pile up the gold, and Wotan is forced to relinquish the Tarnhelm to help cover Freia completely. However, Fasolt spots a remaining crack in the gold, through which one of Freia's eyes can be seen. He demands that Wotan fill the crack by yielding the ring. Loge reminds all present that the ring rightly belongs to the Rhine maidens. Wotan angrily and defensively declares that he will keep it for his own. The giants seize Freia and start to leave, this time forever.
+
+Suddenly, Erda the earth goddess, a primeval goddess older than Wotan, appears out of the ground. She warns Wotan of impending doom and urges him to give up the cursed ring. Troubled, Wotan calls the giants back and surrenders the ring. The giants release Freia and begin dividing the treasure, but they quarrel over the ring itself. Fafner clubs Fasolt to death (the orchestra repeats the "Death-Curse" leitmotif). Wotan, horrified, realizes that Alberich's curse has terrible power. Loge remarks that Wotan is indeed a lucky fellow: his enemies are killing each other for the gold he gave up.
+
+At last, the gods prepare to enter their new home. Donner summons a thunderstorm to clear the air. After the storm has ended, Froh creates a rainbow bridge that stretches to the gate of the castle. Wotan leads them across the bridge to the castle, which he names Valhalla. Fricka asks him about the name, and he replies enigmatically that its meaning will become clear when his plans come to fruition.
+
+Loge, who knows that the end of the gods is coming, does not follow the others into Valhalla; he tells the audience that he is tempted to destroy the gods and all they have deceitfully acquired. Far below, the Rhine maidens mourn the loss of their gold and proclaim that the glory of the gods is only an illusion.
+
+Copied shamelessly from [wikipedia](https://en.wikipedia.org/wiki/Das_Rheingold)
