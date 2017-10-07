@@ -1,6 +1,7 @@
 main,
 footer,
-.nav-container {
+/*.nav-container {*/
+  {
   margin: 0 auto;
   max-width: 640px;
   padding: 0 1rem;
@@ -21,7 +22,6 @@ footer,
     color: $default-color;
     display: inline-block;
     margin: 0;
-    padding-right: .2rem;
 
     &:hover,
     &:focus {
@@ -34,6 +34,9 @@ footer,
     margin: 1rem 0 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap;
   }
 
   li {
@@ -41,11 +44,6 @@ footer,
     color: $default-color;
     display: inline-block;
     opacity: .6;
-    padding: 0 2rem 0 0;
-
-    &:last-child {
-      padding-right: 0;
-    }
 
     &:hover,
     &:focus {
@@ -56,6 +54,7 @@ footer,
   a {
     color: $default-color;
     font-family: $sans-font;
+    padding: .5rem;
   }
 }
 
