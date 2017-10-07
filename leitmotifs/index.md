@@ -4,6 +4,7 @@ title: Leitmotifs
 ---
 
 For now, this page loads like ass because it's requesting 98 YouTube videos. Give it a sec for the >1,300 http request and >50MB to load.
+
 For later, figure out a better way to embed YouTube videos here.
 
 Also, here's the [youtube playlist](https://www.youtube.com/watch?v=kK9wrEd88Ok&list=PL66781E476D3C88A1) these came from, if it's more convenient for you.
