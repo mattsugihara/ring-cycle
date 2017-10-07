@@ -22,13 +22,13 @@ Freia's golden apples had kept the Gods eternally young; in her absence, they be
 
 An orchestral interlude follows: it "paints" the descent of Loge and Wotan into Nibelheim. As the orchestra fades, it gives way to a choir of 18 tuned anvils (indicated in the score with specific size, quantity and pitch) beating out the dotted rhythm of the Nibelung theme to give a stark depiction of the toiling of the enslaved dwarves.
 
-# Scene 3
+## Scene 3
 
 In Nibelheim, Alberich has enslaved the rest of the Nibelung dwarves with the power of the ring. He has forced his brother Mime, the most skillful smith, to create a magic helmet, the Tarnhelm. Alberich demonstrates the Tarnhelm's power by making himself invisible, the better to torment his subjects. (The Tarnhelm can also change the wearer's shape, and teleport him long distances.)
 
 Wotan and Loge arrive and happen upon Mime, who tells them about Alberich's forging of the ring and the misery of the Nibelungs under his rule. Alberich returns, driving his slaves to pile up a huge mound of gold. When they have finished, he dismisses them and turns his attention to the two visitors. He boasts to them about his plans to use his gold to conquer the world. Loge asks how he can protect himself against a thief while he sleeps. Alberich says the Tarnhelm would hide him, by allowing him to turn invisible or change his form. Loge says he doesn't believe it and requests a demonstration. Alberich complies, turning into a giant snake (or dragon, depending on the translation). Loge acts suitably impressed and then he asks if he can also reduce his size, which would be very useful for hiding. Alberich transforms himself into a toad. The two gods quickly seize him, tie him up, and drag him up to the mountain top.
 
-# Scene 4
+## Scene 4
 
 On the mountaintop, Wotan and Loge force Alberich to exchange his wealth for his freedom. They untie his right hand, and he uses the ring to summon his Nibelung slaves, who bring the hoard of gold. After the gold has been delivered, he asks for the return of the Tarnhelm, but Loge says that it is part of his ransom. Finally, Wotan demands the ring. Alberich refuses, but Wotan seizes it from his finger and puts it on his own. Alberich is crushed by his loss, and before he leaves he lays a curse on the ring: until it should return to him, whoever does not possess it will desire it, and whoever possesses it will live in anxiety and will eventually be killed and robbed of it by its next owner. Alberich's discordant "Death-Curse" leitmotif is one of the few leitmotifs which occur regularly and unchanged in all four parts of the Ring Cycle.
 
