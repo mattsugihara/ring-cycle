@@ -5,7 +5,7 @@ title: Summary
 
 # *The Ring* in 2.5 minutes
 
-<iframe src="https://youtube.com/embed/AgzZ_nLOJJE?showinfo=0&rel=0&iv_load_policy=3" frameborder="0" style="width:100%; height:450px" allowfullscreen></iframe>
+<iframe src="https://youtube.com/embed/AgzZ_nLOJJE?showinfo=0&rel=0&iv_load_policy=3" frameborder="0" style="width:100%; height:338px" allowfullscreen></iframe>
 
 # Radiolab's *The Ring and I*
 
