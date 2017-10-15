@@ -3,6 +3,7 @@ layout: post
 part: four
 title: "Götterdämmerung"
 source: https://en.wikipedia.org/wiki/G%C3%B6tterd%C3%A4mmerung
+summary: "Siegfried gives Brünnhilde the ring as a symbol of his fidelity, and she sends him off to go adventuring. Gunther, lord of the Gibichungs, slips him a potion causing him to lose all memory of Brünnhilde. At Gunther's behest, Siegfried disguises himself as Gunther and \"wins\" Brünnhilde as Gunther's wife, stealing the ring back from Brünnhilde in the process. At the wedding, Brünnhilde sees Siegfried undisguised and tells the guests of their history. Siegfried, having no memory of the events, swears an oath that Brünnhilde is lying. Siegfried then drinks a potion that restores his memory, and upon recounting the story is killed by Hagen for breaking his oath. Brünnhilde orders a funeral pyre built for Siegfried and throws herself on it. The blaze engulfs the hall, catching Valhalla on fire and consuming the gods. The Rhine floods, quenching the flames, and the Rhinemaidens retrieve the ring and break the curse."
 ---
 
 ## Prologue

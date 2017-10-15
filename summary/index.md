@@ -22,7 +22,7 @@ title: Summary
       <div class="catalogue-line"></div>
 
       <p>
-        {{ post.content | truncatewords: 30 | strip_html }}
+        {{ post.summary }}
       </p>
 
     </div>
