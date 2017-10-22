@@ -1,0 +1,18 @@
+---
+layout: standard
+title: Synopses
+---
+
+  {% for post in site.posts reversed %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="synopsis">
+    <div class="synopsis-number">{{ post.part }}</div>
+    <div class="synopsis-text">
+      <h3>{{ post.title }}</h3>
+      <p>
+        {{ post.synopsis }}
+      </p>
+      <div class="button">Get details</div>
+    </div>
+  </a>
+
+  {% endfor %}
