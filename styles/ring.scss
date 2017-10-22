@@ -11,6 +11,13 @@ $secondary-font-color: orange;
 $body-font: "Open Sans", Helvetica, sans-serif;
 $heading-font: Oswald, Helvetica, sans-serif;
 
+.line{
+  content:" ";
+  display: block;
+  height: 1rem;
+  width: 4rem;
+  background-color: $primary-font-color;
+}
 
 
 *{
@@ -37,7 +44,7 @@ h1{
   padding: 1rem;
   font-size: 15vw;
   line-height: 1;
-  height: 100vh;
+  height: calc(100vh - 50px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,15 +53,12 @@ h1{
   div:first-child{
     font-size: 5vw;
     position: relative;
+    margin-bottom: 4vh;
 
     &::before{
-      content:" ";
-      display: block;
-      height: 1rem;
-      width: 4rem;
+      @extend .line;
       position: absolute;
       top: -2rem;
-      background-color: $primary-font-color;
     }
   }
 }
@@ -63,11 +67,7 @@ h2{
   font-size: 48px;
   margin-top: 6rem;
   &::before{
-    content:" ";
-    display: block;
-    height: 1rem;
-    width: 4rem;
-    background-color: $primary-font-color;
+    @extend .line;
   }
 }
 
@@ -117,7 +117,7 @@ h3{
   }
 }
 
-ul{
+.content ul{
   list-style: none;
   padding-left: 2rem;
   position: relative;
@@ -144,10 +144,44 @@ Layout
   margin-top: 4rem;
 }
 
+.logo{
+  font-size: 24px;
+  padding: .5rem 1rem;
+  line-height: 32px;
+}
 
 
 /*864<=*/
 @media screen and (min-width: 54rem){
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  line-height: 1;
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 1rem;
+  }
+
+  li{
+    &:hover{
+      background: $primary-font-color;
+      color: white;
+    }
+  }
+}
 
   h2{
     font-size: 64px;
