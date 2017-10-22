@@ -1,9 +1,7 @@
 ---
-layout: basic
+layout: standard
 title: Characters
 ---
-
-# Characters
 
 ## Gods
 

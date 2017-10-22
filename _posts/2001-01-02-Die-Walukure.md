@@ -1,8 +1,7 @@
 ---
-layout: synopsis
+layout: standard
 part: two
 title: "Die Walküre"
-source: https://en.wikipedia.org/wiki/Die_Walk%C3%BCre
 synopsis: "Siegmund and Sieglinde, twins separated at birth, are reunited and run off together. Fricka, incensed by the incest and Sieglinde's infidelity, demands Siegmund's death. Reluctantly, Wotan orders his daughter Brünnhilde to ensure that Siegmund is killed in the upcoming duel between Siegmund and Sieglinde's husband. Brünnhilde disobeys Wotan, so Wotan ensures his death by shattering Siegmund's sword mid-duel. Brünnhilde, terrified of Wotan's wrath, runs off with Sieglinde, now pregnant with Siegmund's son. As punishment, Wotan turns Brünnhilde into a mortal and curses her to sleep until a fearless mortal can rescue her."
 ---
 
@@ -33,3 +32,6 @@ Hunding arrives and attacks Siegmund. Blessed by Brünnhilde, Siegmund begins to
 The other Valkyries assemble on the summit of a mountain, each with a dead hero in her saddlebag. They are astonished when Brünnhilde arrives with Sieglinde, a human woman. She begs them to help, but they dare not defy Wotan. Sieglinde, in her grief over Siegmund's death, tells Brünnhilde that she no longer wishes to live. Brünnhilde tells her that she is pregnant by Siegmund, and urges her to remain alive for the child's sake, and to name the child Siegfried. Brünnhilde gives the fragments of Nothung to Sieglinde, and resolves to delay Wotan while Sieglinde escapes.
 
 Wotan arrives in wrath and passes judgement on Brünnhilde: she is to be stripped of her Valkyrie status and become a mortal woman, to be held in a magic sleep on the mountain, prey to any man who happens by. Dismayed, the other Valkyries flee. Brünnhilde begs mercy of Wotan for herself, his favorite child. She recounts the courage of Siegmund and her decision to protect him, knowing that was Wotan's true desire. With the words 'Der diese Liebe mir ins Herz gehaucht' (He who breathed this love into me), introducing the key of E major, she identifies her actions as Wotan's true will. Wotan consents to her last request: to encircle the mountaintop with magic flame, which will deter all but the bravest of heroes (who, as shown through the leitmotif, they both know will be the yet unborn Siegfried). Wotan lays Brünnhilde down on a rock and, in a long embrace, kisses her eyes closed into an enchanted sleep. He summons Loge (the Norse demigod of fire) to ignite the circle of flame that will protect her, then slowly departs in sorrow, after pronouncing: "Whosoever fears the point of my spear shall not pass through the fire." The curtain falls as the Magic Fire Music again resolves into E major.
+
+Text from [Wikipedia](https://en.wikipedia.org/wiki/Die_Walk%C3%BCre)
+{% include pagination.html %}

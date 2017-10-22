@@ -1,8 +1,7 @@
 ---
-layout: synopsis
+layout: standard
 part: three
 title: "Siegfried"
-source: https://en.wikipedia.org/wiki/Siegfried_(opera)
 synopsis: "Sieglinde dies in childbirth, so Mime, Alberich's brother, raises the child, Siegfried, with the ultimate purpose of using him to kill Fafner, and retrieve the ring. Siegfried reforge his father's sword and uses it to kill Fafner, now a dragon. Siegfried tastes a little of the dragon's blood and learns that Mime is planning to kill him and that there is a woman asleep surrounded by magic fire. Siegfried kills Mime and rescues Brünnhilde. They fall in love, and Brünnhilde accepts her mortal nature."
 ---
 
@@ -47,3 +46,6 @@ Siegfried arrives, and the Wanderer questions the youth. Siegfried, who does not
 ### Scene 3
 
 Siegfried passes through the ring of fire, emerging on Brünnhilde's rock. At first, he thinks the sleeping armored figure is a man. However, when he removes the armor, he finds a woman beneath. At the sight of the first woman he has ever seen, Siegfried at last experiences fear. In desperation, he kisses Brünnhilde, waking her from her magic sleep. Hesitant at first, Brünnhilde is won over by Siegfried's love, and renounces the world of the gods. Together, they hail "light-bringing love, and laughing death."
+
+Text from [Wikipedia](https://en.wikipedia.org/wiki/Siegfried_(opera))
+{% include pagination.html %}

@@ -1,8 +1,7 @@
 ---
-layout: synopsis
+layout: standard
 part: one
 title: "Das Rheingold"
-source: https://en.wikipedia.org/wiki/Das_Rheingold
 synopsis: "To pay for his newly built castle, Wotan steals a ring from Alberich, who in turn had forged the ring from gold stolen from the Rhinemaidens in retaliation for spurning his advances. Alberich curses the ring. Wotan exchanges the ring for Freia, his sister in law, who he had originally used to pay for the castle. Fasolt and Fafner, the giants who built the castle and now owners of the ring, immediately being to quarrel, and Fafner kills Fasolt. Erda, the goddess of the Earth appears and warn Wotan that the time of the gods is coming to an end."
 ---
 
@@ -40,3 +39,6 @@ Suddenly, Erda the earth goddess, a primeval goddess older than Wotan, appears o
 At last, the gods prepare to enter their new home. Donner summons a thunderstorm to clear the air. After the storm has ended, Froh creates a rainbow bridge that stretches to the gate of the castle. Wotan leads them across the bridge to the castle, which he names Valhalla. Fricka asks him about the name, and he replies enigmatically that its meaning will become clear when his plans come to fruition.
 
 Loge, who knows that the end of the gods is coming, does not follow the others into Valhalla; he tells the audience that he is tempted to destroy the gods and all they have deceitfully acquired. Far below, the Rhine maidens mourn the loss of their gold and proclaim that the glory of the gods is only an illusion.
+
+Text from [Wikipedia](https://en.wikipedia.org/wiki/Das_Rheingold)
+{% include pagination.html %}

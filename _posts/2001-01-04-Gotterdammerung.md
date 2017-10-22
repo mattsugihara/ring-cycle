@@ -1,8 +1,7 @@
 ---
-layout: synopsis
+layout: standard
 part: four
 title: "Götterdämmerung"
-source: https://en.wikipedia.org/wiki/G%C3%B6tterd%C3%A4mmerung
 synopsis: "Siegfried goes off adventuring and comes across Gunther, lord of the Gibichungs. Gunther slips Siegfried a potion causing him to lose all memory of Brünnhilde. Gunther forces Brünnhilde into marriage, but at the wedding Brünnhilde tells everyone of her and Siegfried's past. Siegfried, having no memory of the events, swears an oath that Brünnhilde is lying. Siegfried then unknowingly drinks a potion that restores his memory. He declares that Brünnhilde was telling the truth, and Hagen, Gunther's right hand man kills Siegfried for lying under oath. Brünnhilde orders a funeral pyre built for Siegfried and throws herself on it. The blaze engulfs the hall, catching Valhalla on fire and consuming the gods. The Rhine floods, quenching the flames, and the Rhinemaidens retrieve the ring and break the curse."
 ---
 
@@ -39,3 +38,6 @@ Back in the Gibichung Hall, Gutrune awaits Siegfried's return. Hagen arrives ahe
 Brünnhilde makes her entrance, after having received the complete information from the Rhinemaidens. Gutrune, initially angry at Brünnhilde, later understands the truth of Hagen's deception and that, in fact, Brünnhilde was the true bride of Siegfried. Brünnhilde issues orders for a huge funeral pyre to be assembled by the river (the start of the Immolation Scene). She takes the ring and tells the Rhinemaidens to claim it from her ashes, once fire has cleansed it of its curse. Lighting the pyre with a firebrand, she sends Wotan's ravens home with "anxiously longed-for tidings", and to fly by the magic fire for Loge to fulfill his task. After an apostrophe to the dead hero, Brünnhilde mounts her horse Grane and rides into the flames.
 
 The fire flares up, and the hall of the Gibichungs catches fire and collapses. The Rhine overflows its banks, quenching the fire, and the Rhinemaidens swim in to claim the ring. Hagen tries to stop them but they drag him into the depths and drown him. As they celebrate the return of the ring and its gold to the river, a red glow is seen in the sky. As the Gibichungs watch, deeply moved, the interior of Valhalla is finally seen, with gods and heroes visible as described by Waltraute in Act 1. Flames flare up in the Hall of the Gods, hiding it and them from sight completely. As the gods are consumed in the flames, the curtain falls.
+
+Text from [Wikipedia](https://en.wikipedia.org/wiki/G%C3%B6tterd%C3%A4mmerung)
+{% include pagination.html %}
