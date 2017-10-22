@@ -1,61 +1,43 @@
 ---
-# comment
+layout: basic
 ---
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="initial-scale=1.0">
-
-  <title>
-    {% if page.title == "Home" %}
-    {{ site.title }}
-    {% else %}
-    {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-
-  <link rel="stylesheet" href="{{ site.baseurl }}/style/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-</head>
-
-<body>
 <h1>
-  <span>Wagner's</span>
-  <span>Der Rings des Nibelungen</span></h1>
+  <div>Wagner's</div>
+  <div>Der Ring des Nibelungen</div>
+</h1>
 
-<h2>Summaries</h2>
-{% for post in site.posts reversed %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-    <div>
-      <div class="number">{{ post.part }}</div>
-      <h2 class="catalogue-title">{{ post.title }}</h2>
-      <div class="catalogue-line"></div>
+<div class="container">
+  <h2>Synopses</h2>
 
+  {% for post in site.posts reversed %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="synopsis">
+    <div class="synopsis-number">{{ post.part }}</div>
+    <div class="synopsis-text">
+      <h3>{{ post.title }}</h3>
       <p>
-        {{ post.summary }}
+        {{ post.synopsis }}
       </p>
-
+      <div class="button">Get details</div>
     </div>
   </a>
+
   {% endfor %}
 
-<h2>Characters</h2>
-<p>
-  There’s a bunch of them. Many of them gods, some of them are humans, and others are other.
-</p>
+  <h2>Characters</h2>
+  <p>
+    There’s a bunch of them. Many of them are gods, some of them are humans, and others are something else.
+  </p>
+  <a href="{{ site.baseurl }}/characters/" class="button">Get details</a>
 
-<h2>Leitmotifs</h2>
-<p>
-  Wagner basically invented the idea of music representing characters, actions, or concepts. There’s Scholars have identified about a hundred of them.
-</p>
+  <h2>Leitmotifs</h2>
+  <p>
+    Wagner basically invented the idea of music representing characters, actions, or concepts. Scholars have identified about a hundred of them.
+  </p>
+  <a href="{{ site.baseurl }}/leitmotifs/" class="button">Get details</a>
 
-<h2>Context</h2>
-<p>
-  There’s no getting around the fact that Hitler loved The Ring, and that Wagner is on record saying that jews are terrible. On the other hand, the only competent characters in The Ring are women, ideas of traditional masculinity is pretty well skewered, and the very notion of capitalism is called into question. So, it’s complicated. Let’s explore that.
-</p>
-
-
-</body>
-</html>
+  <h2>Context</h2>
+  <p>
+    There’s no getting around the fact that Hitler loved The Ring, and that Wagner is on record saying that jews are terrible. On the other hand, the only competent characters in The Ring are women, ideas of traditional masculinity is pretty well skewered, and the very notion of capitalism is called into question. So, it’s complicated. Let’s explore that.
+  </p>
+  <a href="{{ site.baseurl }}/context/" class="button">Get details</a>
+</div>

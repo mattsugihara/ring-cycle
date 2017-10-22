@@ -1,9 +1,9 @@
 ---
-layout: summary
+layout: synopsis
 part: two
-title: "Die Walkure"
+title: "Die Walküre"
 source: https://en.wikipedia.org/wiki/Die_Walk%C3%BCre
-summary: "Siegmund and Sieglinde, twins separated at birth, are reunited and run off together. Fricka, incensed by the incest and Sieglinde's infidelity, demands Siegmund's death. Reluctantly, Wotan orders his daughter Brünnhilde to ensure that Siegmund is killed in the upcoming duel between Siegmund and Sieglinde's husband. Brünnhilde disobeys Wotan, so Wotan ensures his death by shattering Siegmund's sword mid-duel. Brünnhilde, terrified of Wotan's wrath, runs off with Sieglinde, now pregnant with Siegmund's son. As punishment, Wotan turns Brünnhilde into a mortal and curses her to sleep until a fearless mortal can rescue her."
+synopsis: "Siegmund and Sieglinde, twins separated at birth, are reunited and run off together. Fricka, incensed by the incest and Sieglinde's infidelity, demands Siegmund's death. Reluctantly, Wotan orders his daughter Brünnhilde to ensure that Siegmund is killed in the upcoming duel between Siegmund and Sieglinde's husband. Brünnhilde disobeys Wotan, so Wotan ensures his death by shattering Siegmund's sword mid-duel. Brünnhilde, terrified of Wotan's wrath, runs off with Sieglinde, now pregnant with Siegmund's son. As punishment, Wotan turns Brünnhilde into a mortal and curses her to sleep until a fearless mortal can rescue her."
 ---
 
 ## Act 1

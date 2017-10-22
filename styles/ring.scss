@@ -1,0 +1,173 @@
+---
+# comment
+---
+
+/*
+Variables
+*/
+
+$primary-font-color: #412120;
+$secondary-font-color: orange;
+$body-font: "Open Sans", Helvetica, sans-serif;
+$heading-font: Oswald, Helvetica, sans-serif;
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: $body-font;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: $heading-font;
+	font-weight: 700;
+	text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  padding: 1rem;
+  font-size: 15vw;
+  line-height: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  hyphens: auto;
+
+  div:first-child{
+    font-size: 5vw;
+
+    &::before{
+      content:" ";
+      display: block;
+      height: 1rem;
+      width: 4rem;
+      background-color: $primary-font-color;
+    }
+  }
+}
+
+h2{
+  font-size: 48px;
+  margin-top: 6rem;
+  &::before{
+    content:" ";
+    display: block;
+    height: 1rem;
+    width: 4rem;
+    background-color: $primary-font-color;
+  }
+}
+
+h3{
+  font-size: 24px;
+}
+
+.synopsis{
+	text-decoration: none;
+	color: $primary-font-color;
+	display: block;
+
+  &-number{
+    text-transform: uppercase;
+    font-family: $heading-font;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  p{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.button{
+  background: $primary-font-color;
+  color: white;
+
+  border-radius: 0px;
+  padding: .5rem 2rem;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;  
+  margin-top: 1rem;
+  display: inline-block;
+  transition: all 500ms ease;
+  
+
+
+
+  &:hover{
+    box-shadow: 0 2px 4px rgba(0,0,0,.54);
+    background: white;
+    color: $primary-font-color;
+  }
+}
+
+ul{
+  list-style: none;
+  padding-left: 2rem;
+  position: relative;
+
+  >li:before{
+    content: "– ";
+    position: absolute;
+    left: 1rem;
+  }
+}
+
+/*
+Layout
+*/
+
+.container{
+	max-width: 54rem;
+  padding: 0 1rem;
+	width: 100%;
+  margin: 0 auto;
+}
+
+
+
+/*864<=*/
+@media screen and (min-width: 54rem){
+
+  h2{
+    font-size: 64px;
+  }
+
+  .synopsis{
+		display: flex;
+    margin: 6rem 0;
+
+    &-number{
+      flex-basis: 14rem;
+      font-size: 84px;
+      line-height: 84px;
+      transform: translateY(-1px);
+    }
+
+    &-text{
+      width: calc(100% - 14rem);
+      padding-left: 1rem;
+    }
+	}
+}
+
+/*1024<=*/
+@media screen and (min-width: 64rem){
+
+  h2{
+    font-size: 96px;
+  }
+}
