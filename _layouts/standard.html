@@ -2,16 +2,19 @@
 layout: boilerplate
 ---
 <nav>
-	<a href="{{ site.baseurl }}/" class="logo">
+	<a href="{{ site.baseurl }}/" id="logo">
 		Der Ring Ring Des Nibelungen
 	</a>
 	<ul class="nav">
+		<li><a href="{{ site.baseurl }}/">Home</a></li>
 		<li><a href="{{ site.baseurl }}/synopses">Synopses</a></li>
 		<li><a href="{{ site.baseurl }}/characters">Characters</a></li>
 		<li><a href="{{ site.baseurl }}/leitmotifs">Leitmotifs</a></li>
 		<li><a href="{{ site.baseurl }}/context">Context</a></li>
 	</ul>
+	<button id="hide-nav">╳</button>
 </nav>
+<button id="show-nav">☰</button>
 
 <h1>{{ page.title }}</h1>
 
