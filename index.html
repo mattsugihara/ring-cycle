@@ -21,8 +21,41 @@
 </head>
 
 <body>
-  <div class="cover">
-    {% include nav.html %}
-  </div>
+<h1>
+  <span>Wagner's</span>
+  <span>Der Rings des Nibelungen</span></h1>
+
+<h2>Summaries</h2>
+{% for post in site.posts reversed %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+    <div>
+      <div class="number">{{ post.part }}</div>
+      <h2 class="catalogue-title">{{ post.title }}</h2>
+      <div class="catalogue-line"></div>
+
+      <p>
+        {{ post.summary }}
+      </p>
+
+    </div>
+  </a>
+  {% endfor %}
+
+<h2>Characters</h2>
+<p>
+  There’s a bunch of them. Many of them gods, some of them are humans, and others are other.
+</p>
+
+<h2>Leitmotifs</h2>
+<p>
+  Wagner basically invented the idea of music representing characters, actions, or concepts. There’s Scholars have identified about a hundred of them.
+</p>
+
+<h2>Context</h2>
+<p>
+  There’s no getting around the fact that Hitler loved The Ring, and that Wagner is on record saying that jews are terrible. On the other hand, the only competent characters in The Ring are women, ideas of traditional masculinity is pretty well skewered, and the very notion of capitalism is called into question. So, it’s complicated. Let’s explore that.
+</p>
+
+
 </body>
 </html>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: summary
 part: one
 title: "Das Rheingold"
 source: https://en.wikipedia.org/wiki/Das_Rheingold

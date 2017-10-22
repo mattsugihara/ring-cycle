@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: summary
 part: four
 title: "Götterdämmerung"
 source: https://en.wikipedia.org/wiki/G%C3%B6tterd%C3%A4mmerung

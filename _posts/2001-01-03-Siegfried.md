@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: summary
 part: three
 title: "Siegfried"
 source: https://en.wikipedia.org/wiki/Siegfried_(opera)

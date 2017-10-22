@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: summary
 part: two
 title: "Die Walkure"
 source: https://en.wikipedia.org/wiki/Die_Walk%C3%BCre
