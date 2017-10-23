@@ -21,7 +21,35 @@
 </head>
 
 <body>
-{{ content }}
-<script src="{{ site.baseurl }}/scripts/ring.js"></script>
+  <nav>
+    <a href="{{ site.baseurl }}/" id="logo">
+      Der Ring Ring Des Nibelungen
+    </a>
+    <ul class="nav">
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      <li><a href="{{ site.baseurl }}/synopses">Synopses</a></li>
+      <li><a href="{{ site.baseurl }}/characters">Characters</a></li>
+      <li><a href="{{ site.baseurl }}/leitmotifs">Leitmotifs</a></li>
+      <li><a href="{{ site.baseurl }}/context">Context</a></li>
+    </ul>
+    <button id="hide-nav">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+        <polygon fill-rule="evenodd" points="24 21.172 9.151 6.322 6.322 9.151 21.172 24 6.322 38.849 9.151 41.678 24 26.828 38.849 41.678 41.678 38.849 26.828 24 41.678 9.151 38.849 6.322 24 21.172"/>
+      </svg>
+    </button>
+  </nav>
+  <button id="show-nav">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+      <g fill-rule="evenodd">
+        <rect width="28" height="4" x="10" y="10"/>
+        <rect width="28" height="4" x="10" y="22"/>
+        <rect width="28" height="4" x="10" y="34"/>
+      </g>
+    </svg>
+  </button>
+
+  {{ content }}
+  
+  <script src="{{ site.baseurl }}/scripts/ring.js"></script>
 </body>
 </html>
