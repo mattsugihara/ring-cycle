@@ -8,20 +8,10 @@ layout: boilerplate
 
 <div class="container">
   <h2>Synopses</h2>
-
-  {% for post in site.posts reversed %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="synopsis">
-    <div class="synopsis-number">{{ post.part }}</div>
-    <div class="synopsis-text">
-      <h3>{{ post.title }}</h3>
-      <p>
-        {{ post.synopsis }}
-      </p>
-      <div class="button">more</div>
-    </div>
-  </a>
-
-  {% endfor %}
+  <p>
+    There's just shy of 20 hours of opera across four parts. Getting familiar with each one before the night of will make it easier to follow along.
+  </p>
+  <a href="{{ site.baseurl }}/synopses/" class="button">more</a>
 
   <h2>Characters</h2>
   <p>
@@ -31,7 +21,7 @@ layout: boilerplate
 
   <h2>Leitmotifs</h2>
   <p>
-    Wagner boilerplateally invented the idea of music representing characters, actions, or concepts. Scholars have identified about a hundred of them.
+    Wagner didn't invent the idea of music representing characters, actions, or concepts in music, but he used the hell out of it. People debate how many he used (or even if they can be counted like that), but here's roughly a hundred of them.
   </p>
   <a href="{{ site.baseurl }}/leitmotifs/" class="button">more</a>
 
