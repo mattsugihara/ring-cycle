@@ -1,5 +1,6 @@
 function toggleNav(){
 	document.querySelector('body').classList.toggle('nav-shown');
+	document.querySelector('html').classList.toggle('nav-shown');
 }
 
 document.querySelector('#hide-nav').addEventListener('click',toggleNav);
