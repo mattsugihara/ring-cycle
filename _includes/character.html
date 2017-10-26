@@ -1,4 +1,4 @@
-<div id="{{ post.name }}">
+<div id="{{ post.name | replace: ' ', '-' }}">
 	<h4>{{ post.name }}</h4>
 	{{ post.content }}
 </div>
