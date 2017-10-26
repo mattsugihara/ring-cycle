@@ -1,0 +1,153 @@
+---
+layout: standard
+title: Characters
+---
+
+<ul>
+    <li>
+        Gods
+        <ul>
+            {% assign gods = site.characters | where:"type","god" %}
+            {% for post in gods %}
+            {% include toc-entry.html name=post.name %}
+            {% endfor %}
+        </ul>
+    </li>
+    <li>
+        Mortals
+        <ul>
+            <li>
+                Wälsungs
+                <ul>
+                    {% assign walsungs = site.characters | where:"type","walsung" %}
+                    {% for post in walsungs %}
+                    {% include toc-entry.html name=post.name %}
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                Neidings
+                <ul>
+                    {% assign neidings = site.characters | where:"type","neiding" %}
+                    {% for post in neidings %}
+                    {% include toc-entry.html name=post.name %}
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                Gibichungs
+                <ul>
+                    {% assign gibichungs = site.characters | where:"type","gibichung" %}
+                    {% for post in gibichungs %}
+                    {% include toc-entry.html name=post.name %}
+                    {% endfor %}
+                </ul>
+            </li>
+            {% assign bird = site.characters | where:"type","bird" %}
+            {% for post in bird %}
+            {% include toc-entry.html name=post.name %}
+            {% endfor %}
+        </li>
+    </ul>
+</li>
+<li>
+    Valkyries
+    <ul>
+        {% assign valkyries = site.characters | where:"type","valkyrie" %}
+        {% for post in valkyries %}
+        {% include toc-entry.html name=post.name %}
+        {% endfor %}
+    </ul>
+</li>
+<li>
+    Other mythicals
+    <ul>
+        <li>
+            Rhinemaidens
+            <ul>
+                {% assign rhinemaidens = site.characters | where:"type","rhinemaiden" %}
+                {% for post in rhinemaidens %}
+                {% include toc-entry.html name=post.name %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            Giants
+            <ul>
+                {% assign giants = site.characters | where:"type","giant" %}
+                {% for post in giants %}
+                {% include toc-entry.html name=post.name %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            Nibelungs
+            <ul>
+                {% assign nibelungs = site.characters | where:"type","nibelung" %}
+                {% for post in nibelungs %}
+                {% include toc-entry.html name=post.name %}
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</li>
+</ul>
+<a href="https://quizlet.com/38208058/wagners-ring-cycle-characters-flash-cards/">flash cards</a>
+
+<h2>Gods</h2> 
+{% assign gods = site.characters | where:"type","god" %}
+{% for post in gods %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+
+<h2>Mortals</h2>
+<h3>Wälsungs</h3>
+{% assign walsungs = site.characters | where:"type","walsung" %}
+{% for post in walsungs %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+
+<h3>Neidings</h3>
+{% assign neidings = site.characters | where:"type","neiding" %}
+{% for post in neidings %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+<h3>Gibichungs</h3>
+{% assign gibichungs = site.characters | where:"type","gibichung" %}
+{% for post in gibichungs %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+<h2>Valkyries</h2>
+{% assign valkyries = site.characters | where:"type","valkyrie" %}
+{% for post in valkyries %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+<h2>Other mythicals</h2>
+<h3>Rhinemaidens</h3>
+{% assign rhinemaidens = site.characters | where:"type","rhinemaiden" %}
+{% for post in rhinemaidens %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+<h3>Giants</h3>
+{% assign giants = site.characters | where:"type","giant" %}
+{% for post in giants %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+<h3>Nibelungs</h3>
+{% assign nibelungs = site.characters | where:"type","nibelung" %}
+{% for post in nibelungs %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}
+
+<h3>The bird</h3>
+{% assign bird = site.characters | where:"type","bird" %}
+{% for post in bird %}
+{% include character.html name=post.name content=post.content %}
+{% endfor %}

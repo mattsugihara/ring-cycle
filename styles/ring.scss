@@ -43,12 +43,12 @@ h1,h2,h3,h4,h5{
 	text-transform: uppercase;
   margin: 0;
   padding: 0;
+  line-height: 1;
 }
 
 h1{
   padding: 1rem;
   font-size: 15vw;
-  line-height: 1;
   height: calc(100vh - 50px);
   display: flex;
   flex-direction: column;

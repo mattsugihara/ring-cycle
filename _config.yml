@@ -24,3 +24,6 @@ markdown:       kramdown
 version:        3.4.1
 github:
   repo:         https://github.com/chesterhow/tale
+
+collections:
+  - characters
