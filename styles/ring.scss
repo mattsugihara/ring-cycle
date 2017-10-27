@@ -148,28 +148,34 @@ iframe{
   iframe{
     height: 8.125rem;
   }
+
+  .youtube-placeholder{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    svg{
+      height: 3rem;
+      width: 4.25rem;
+    }
+
+    &:hover .ytp-large-play-button-bg{
+      fill: #f00;
+      fill-opacity: 1;
+    }
+  }
 }
 
-.leitmotif-placeholder{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-
-  svg{
-    height: 3rem;
-    width: 4.25rem;
-  }
-
-  &:hover .ytp-large-play-button-bg{
-    fill: #f00;
-    fill-opacity: 1;
-  }
+.ytp-large-play-button-bg{
+  pointer-events: none;
 }
+
+
 
 /*
 Layout
