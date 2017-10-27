@@ -3,11 +3,9 @@ layout: standard
 title: Leitmotifs
 ---
 
-For now, this page loads like ass because it's requesting 98 YouTube videos. Give it a sec for the >1,300 http request and >50MB to load.
+Here are 98 different leitmotifs that appear throughout the opera. There's some debate over how many there are, or even if they can be counted. It's possible they just kind of ethereally exist.
 
-For later, figure out a better way to embed YouTube videos here.
-
-Also, here's the [youtube playlist](https://www.youtube.com/watch?v=kK9wrEd88Ok&list=PL66781E476D3C88A1) these came from, if it's more convenient for you.
+These all came from this [YouTube playlist](https://www.youtube.com/watch?v=kK9wrEd88Ok&list=PL66781E476D3C88A1) compiled by [Jason Pano](https://www.youtube.com/channel/UCyb54MDy1dXewK2IMVphh8g).
 
 {% include leitmotif.html name="Nature or Genesis" videocode="kK9wrEd88Ok" %}
 {% include leitmotif.html name="Nature (Definitive)" videocode="UKHbEJD53X8" %}
