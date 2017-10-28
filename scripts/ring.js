@@ -32,6 +32,7 @@ function setIframeTarget() {
 	for (var i = 0; i < placeholders.length; i++) {
 		let videoCode = placeholders[i].dataset.videocode;
 		placeholders[i].addEventListener('click',function(){
+			event.preventDefault();
 			placeIframe(videoCode)
 		});
 	}
