@@ -2,6 +2,7 @@
 layout: standard
 part: four
 title: "Götterdämmerung"
+short: "Siegfried gets double crossed. Brunnhilde ends the world"
 synopsis: "Siegfried goes off adventuring and comes across Gunther, lord of the Gibichungs. Gunther slips Siegfried a potion causing him to lose all memory of Brünnhilde. Gunther forces Brünnhilde into marriage, but at the wedding Brünnhilde tells everyone of her and Siegfried's past. Siegfried, having no memory of the events, swears an oath that Brünnhilde is lying. Siegfried then unknowingly drinks a potion that restores his memory. He declares that Brünnhilde was telling the truth, and Hagen, Gunther's right hand man kills Siegfried for lying under oath. Brünnhilde orders a funeral pyre built for Siegfried and throws herself on it. The blaze engulfs the hall, catching Valhalla on fire and consuming the gods. The Rhine floods, quenching the flames, and the Rhinemaidens retrieve the ring and break the curse."
 ---
 

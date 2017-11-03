@@ -2,6 +2,7 @@
 layout: standard
 part: three
 title: "Siegfried"
+short: "Siegfried kills a dragon and finds love"
 synopsis: "Sieglinde dies in childbirth, so Mime, Alberich's brother, raises the child, Siegfried, with the ultimate purpose of using him to kill Fafner, and retrieve the ring. Siegfried reforge his father's sword and uses it to kill Fafner, now a dragon. Siegfried tastes a little of the dragon's blood and learns that Mime is planning to kill him and that there is a woman asleep surrounded by magic fire. Siegfried kills Mime and rescues Brünnhilde. They fall in love, and Brünnhilde accepts her mortal nature."
 ---
 

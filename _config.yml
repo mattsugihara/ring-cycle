@@ -14,5 +14,6 @@ sass:
 # Build settings
 markdown:       kramdown
 
+# Collections
 collections:
   - characters
