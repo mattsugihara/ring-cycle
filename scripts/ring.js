@@ -9,7 +9,7 @@ function buildIframe(videoCode){
 	iframe = document.createElement('iframe');
 	let src = 'https://youtube.com/embed/'
 		+ videoCode
-		+ '?showinfo=0&rel=0&iv_load_policy=3&autoplay=1'
+		+ '?showinfo=0&rel=0&iv_load_policy=3&autoplay=1&playsinline=1'
 	iframe.setAttribute('src',src);
 	iframe.setAttribute('allowfullscreen','1');
 
