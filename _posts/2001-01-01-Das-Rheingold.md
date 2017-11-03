@@ -2,6 +2,7 @@
 layout: standard
 part: one
 title: "Das Rheingold"
+short: "Wotan steals the ring and learns his world is about to end"
 synopsis: "To pay for his newly built castle, Wotan steals a ring from Alberich, who in turn had forged the ring from gold stolen from the Rhinemaidens in retaliation for spurning his advances. Alberich curses the ring. Wotan exchanges the ring for Freia, his sister in law, who he had originally used to pay for the castle. Fasolt and Fafner, the giants who built the castle and now owners of the ring, immediately being to quarrel, and Fafner kills Fasolt. Erda, the goddess of the Earth appears and warn Wotan that the time of the gods is coming to an end."
 ---
 

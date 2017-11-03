@@ -5,23 +5,21 @@ title: Synopses
 
 <h2><i>The Ring</i> in 2.5 minutes</h2>
 
-{% include youtube.html videocode="AgzZ_nLOJJE" id="radiolab" %}
+{% include youtube.html videocode="AgzZ_nLOJJE" id="ring-in-two-and-a-half-minutes" %}
 
-<h2>Radiolab's <i>The Ring and I</i></h2>
-
-<iframe style="height:130px" scrolling="no" src="https://www.wnyc.org/widgets/ondemand_player/radiolab/#file=%2Faudio%2Fxspf%2F91750%2F"></iframe>
-
-
+<ol class="synopses-list">
   {% for post in site.posts reversed %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="synopsis">
-    <div class="synopsis-number">{{ post.part }}</div>
-    <div class="synopsis-text">
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <div class="synopses-list-part">
+        {{ post.part }}
+      </div>
       <h3>{{ post.title }}</h3>
-      <p>
-        {{ post.synopsis }}
-      </p>
-      <div class="button">more</div>
-    </div>
-  </a>
-
+      <div class="synopses-list-text">
+        <p>{{ post.synopsis }}</p>
+        <button>more</button>
+      </div>
+    </a>
+  </li>
   {% endfor %}
+</ol>

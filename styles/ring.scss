@@ -98,10 +98,11 @@ h3{
   }
 }
 
-.button{
+button, a.button{
   background: $primary-font-color;
   color: white;
   border-radius: 0px;
+  border: 0;
   padding: .5rem 2rem;
   font-family: $heading-font;
   text-transform: uppercase;
@@ -180,7 +181,7 @@ iframe{
   pointer-events: none;
 }
 
-#radiolab, #radiolab > *{
+#ring-in-two-and-a-half-minutes, #ring-in-two-and-a-half-minutes > *{
   height: 468px;
 }
 
@@ -197,14 +198,32 @@ Layout
   margin: 0 auto 6rem auto;
 }
 
-.synopsis{
-  margin-top: 4rem;
-}
-
 #logo{
   font-size: 24px;
   padding: .5rem 1rem;
   line-height: 32px;
+}
+
+.synopses-list{
+  list-style: none;
+  padding: 0;
+
+  p,h3{
+    margin: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+}
+
+#radiolab{
+  height: 130px;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 54rem){
@@ -297,7 +316,21 @@ Layout
   #logo{
     display: none;
   }
-}
+
+  .synopses-list{
+
+    .part{
+      order: 2;
+      font-family: $heading-font;
+      text-transform: uppercase;
+      color: $red;
+    }
+
+    p,div{
+      order: 3
+    }
+  }
+} 
 
 
 /*864<=*/
@@ -358,6 +391,29 @@ Layout
     &-text{
       width: calc(100% - 14rem);
       padding-left: 1rem;
+    }
+  }
+
+  .synopses-list{
+
+    margin: 2rem 0;
+
+    &-text,h3{
+      width: calc(100% - 12rem);
+      align-self: flex-end;
+    }
+
+    h3{
+      margin-top: -58px;
+    }
+
+    &-part{
+      font-size: 58px;
+      line-height: 1;
+      font-weight: 700;
+      font-family: $heading-font;
+      text-transform: uppercase;
+      width: 12rem;
     }
   }
 }
