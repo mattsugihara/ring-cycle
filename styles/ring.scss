@@ -9,12 +9,13 @@ Variables
 $primary-font-color: #412120;
 $primary-font-color: #222;
 $secondary-font-color: orange;
-$body-font: "Open Sans", Helvetica, sans-serif;
+$body-font: "Lato", Helvetica, sans-serif;
 $heading-font: Oswald, Helvetica, sans-serif;
 
 $red: #B21000;
 $light-blue: #0E62CC;
 $dark-blue: #004FB2;
+$standard-transition: all 350ms ease;
 
 
 .line{
@@ -23,6 +24,8 @@ $dark-blue: #004FB2;
   height: 1rem;
   width: 4rem;
   background-color: $red;
+  position: absolute;
+  transform: translateY(-1.5rem);
 }
 
 
@@ -36,6 +39,7 @@ body{
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 
 h1,h2,h3,h4,h5{
@@ -45,6 +49,7 @@ h1,h2,h3,h4,h5{
   margin: 0;
   padding: 0;
   line-height: 1;
+  position: relative;
 }
 
 h1{
@@ -62,7 +67,6 @@ h1{
 
     &::before{
       @extend .line;
-      transform: translateY(-1rem);
     }
   }
 }
@@ -73,6 +77,11 @@ h2{
   line-height: 1;
   &::before{
     @extend .line;
+  }
+
+  a{
+    color: $primary-font-color;
+    text-decoration: none;
   }
 }
 
@@ -110,7 +119,7 @@ button, a.button{
   font-size: 18px;  
   margin-top: 1rem;
   display: inline-block;
-  transition: all 350ms ease;
+  transition: $standard-transition;
 
   &:hover{
     background: white;
@@ -290,7 +299,7 @@ Layout
     border: 0;
     outline: 0;
     padding: .5rem;
-    transition: all 250ms ease;
+    transition: $standard-transition;
     cursor: pointer;
     background: transparent;
   }
@@ -359,9 +368,7 @@ Layout
       color: inherit;
       display: block;
       padding: 1rem;
-    }
 
-    li{
       &:hover{
         background: $primary-font-color;
         color: white;
@@ -404,11 +411,12 @@ Layout
     }
 
     h3{
-      margin-top: -58px;
+      margin-top: -55px;
+      padding-bottom: 8px;
     }
 
     &-part{
-      font-size: 58px;
+      font-size: 60px;
       line-height: 1;
       font-weight: 700;
       font-family: $heading-font;
