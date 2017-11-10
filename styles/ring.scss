@@ -235,6 +235,20 @@ Layout
   margin-top: 2rem;
 }
 
+.table-of-contents{
+  list-style: none;
+  padding: 0;
+
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  h4,h3+ul{
+    margin-top: .75rem;
+  }
+}
+
 @media screen and (max-width: 54rem){
   nav{
     position: fixed;
@@ -281,7 +295,19 @@ Layout
     }
   }
 
+  #show-nav, #hide-nav{
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: .5rem;
+    transition: $standard-transition;
+    cursor: pointer;
+    background: transparent;
+  }
+
   #show-nav{
+    position: absolute;
+    z-index: 1;
     svg{
       fill: $primary-font-color;
     }
@@ -293,15 +319,6 @@ Layout
         fill: white;
       }
     }
-  }
-
-  #show-nav, #hide-nav{
-    border: 0;
-    outline: 0;
-    padding: .5rem;
-    transition: $standard-transition;
-    cursor: pointer;
-    background: transparent;
   }
 
   #hide-nav{
@@ -426,6 +443,12 @@ Layout
       text-transform: uppercase;
       width: 12rem;
     }
+  }
+
+  .table-of-contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 

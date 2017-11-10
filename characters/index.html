@@ -3,9 +3,9 @@ layout: standard
 title: Characters
 ---
 
-<ul>
+<ul class="table-of-contents">
     <li>
-        Gods
+        <h3>Gods</h3>
         <ul>
             {% assign gods = site.characters | where:"type","god" %}
             {% for post in gods %}
@@ -14,10 +14,10 @@ title: Characters
         </ul>
     </li>
     <li>
-        Mortals
+        <h3>Mortals</h3>
         <ul>
             <li>
-                Wälsungs
+                <h4>Wälsungs</h4>
                 <ul>
                     {% assign walsungs = site.characters | where:"type","walsung" %}
                     {% for post in walsungs %}
@@ -26,7 +26,7 @@ title: Characters
                 </ul>
             </li>
             <li>
-                Neidings
+                <h4>Neidings</h4>
                 <ul>
                     {% assign neidings = site.characters | where:"type","neiding" %}
                     {% for post in neidings %}
@@ -35,7 +35,7 @@ title: Characters
                 </ul>
             </li>
             <li>
-                Gibichungs
+                <h4>Gibichungs</h4>
                 <ul>
                     {% assign gibichungs = site.characters | where:"type","gibichung" %}
                     {% for post in gibichungs %}
@@ -51,7 +51,7 @@ title: Characters
     </ul>
 </li>
 <li>
-    Valkyries
+    <h3>Valkyries</h3>
     <ul>
         {% assign valkyries = site.characters | where:"type","valkyrie" %}
         {% for post in valkyries %}
@@ -60,10 +60,10 @@ title: Characters
     </ul>
 </li>
 <li>
-    Other mythicals
+    <h3>Other mythicals</h3>
     <ul>
         <li>
-            Rhinemaidens
+            <h4>Rhinemaidens</h4>
             <ul>
                 {% assign rhinemaidens = site.characters | where:"type","rhinemaiden" %}
                 {% for post in rhinemaidens %}
@@ -72,7 +72,7 @@ title: Characters
             </ul>
         </li>
         <li>
-            Giants
+            <h4>Giants</h4>
             <ul>
                 {% assign giants = site.characters | where:"type","giant" %}
                 {% for post in giants %}
@@ -81,7 +81,7 @@ title: Characters
             </ul>
         </li>
         <li>
-            Nibelungs
+            <h4>Nibelungs</h4>
             <ul>
                 {% assign nibelungs = site.characters | where:"type","nibelung" %}
                 {% for post in nibelungs %}
