@@ -292,6 +292,7 @@ Layout
       width: 1600px;
       height: 1600px;
       transition: height 500ms ease, width 500ms ease, opacity 0s ease 0s;
+      z-index: 2;
     }
   }
 

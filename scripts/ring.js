@@ -1,7 +1,29 @@
-//shows and hides the nav
-function toggleNav(){
-	document.querySelector('body').classList.toggle('nav-shown');
-	document.querySelector('html').classList.toggle('nav-shown');
+//handles hiding/showing and aria-vis labels on resize
+function handleScreenSize() {
+	if (864 <= window.innerWidth){
+		document.querySelector('nav').setAttribute('aria-hidden','false');
+		document.querySelector('body').classList.remove('nav-shown');
+		document.querySelector('html').classList.remove('nav-shown');
+	}
+
+	else if (864 > window.innerWidth){
+		hideNav();
+	}
+}
+
+//hides the nav on click
+function hideNav() {
+	document.querySelector('nav').setAttribute('aria-hidden','true');
+	document.querySelector('body').classList.remove('nav-shown');
+	document.querySelector('html').classList.remove('nav-shown');
+}
+
+//shows the nav on click
+function showNav() {
+	document.querySelector('body').classList.add('nav-shown');
+	document.querySelector('html').classList.add('nav-shown');
+	document.querySelector('nav').setAttribute('aria-hidden','false');
+	document.querySelector('nav').focus();
 }
 
 //builds the iframe
@@ -40,5 +62,14 @@ function setIframeTarget() {
 
 
 setIframeTarget();
-document.querySelector('#hide-nav').addEventListener('click',toggleNav);
-document.querySelector('#show-nav').addEventListener('click',toggleNav);
+handleScreenSize();
+document.querySelector('#show-nav').addEventListener('click',function(){
+	showNav();
+});
+document.querySelector('#hide-nav').addEventListener('click',function(){
+	hideNav();
+});
+window.addEventListener('resize',function(){
+	window.requestAnimationFrame(handleScreenSize);
+})
+

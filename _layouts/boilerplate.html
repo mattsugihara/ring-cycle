@@ -21,8 +21,8 @@
 </head>
 
 <body>
-  <nav>
-    <button id="hide-nav">
+  <nav tabindex="0">
+    <button id="hide-nav" aria-label="hide navigation">
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
         <polygon fill-rule="evenodd" points="24 21.172 9.151 6.322 6.322 9.151 21.172 24 6.322 38.849 9.151 41.678 24 26.828 38.849 41.678 41.678 38.849 26.828 24 41.678 9.151 38.849 6.322 24 21.172"/>
       </svg>
@@ -38,7 +38,7 @@
       <li><a href="{{ site.baseurl }}/context">Context</a></li>
     </ul>
   </nav>
-  <button id="show-nav">
+  <button id="show-nav" aria-label="show navigation">
     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
       <g fill-rule="evenodd">
         <rect width="28" height="4" x="10" y="10"/>
