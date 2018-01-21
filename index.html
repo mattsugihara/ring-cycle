@@ -21,8 +21,10 @@ layout: boilerplate
           <div class="synopses-list-part">
             {{ post.part }}
           </div>
-          <h3>{{ post.title }}</h3>
-          <p class="synopses-list-text">{{ post.short }}</p>
+          <div class="synopses-list-text">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.short }}</p>
+          </div>
         </a>
       </li>
       {% endfor %}
